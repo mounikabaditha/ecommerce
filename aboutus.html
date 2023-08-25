@@ -351,6 +351,11 @@
     flex-wrap: nowrap;
   }
 }
+        @media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}
 
 
     </style>
